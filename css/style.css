@@ -2,10 +2,12 @@ html * {
     font-family: monospace !important;
     font-size: medium !important;
     max-width: 80ch;
+    background-color:black;
 }
 
 div {
     padding-left: 8ex;
+    color:white;
 }
 
 div:not(:last-child)::after {
@@ -22,6 +24,7 @@ img {
 h1,
 h2 {
     margin-bottom: 0px;
+    color: white;
 }
 
 h1 {
@@ -43,8 +46,8 @@ summary {
 }
 
 summary:hover {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 
 summary::-webkit-details-marker {
@@ -73,7 +76,7 @@ details:not(:last-child)::after {
 
 a {
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 a:visited {
@@ -81,8 +84,8 @@ a:visited {
 }
 
 a:hover {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 
 
@@ -101,6 +104,7 @@ footer {
     float: left;
     width: 26ch;
     text-align: left;
+    color:white;
 }
 
 #header-center,
@@ -108,6 +112,7 @@ footer {
     float: left;
     width: 28ch;
     text-align: center;
+    color:white;
 }
 
 #header-right,
@@ -115,4 +120,5 @@ footer {
     float: left;
     width: 26ch;
     text-align: right;
+    color:white;
 }
